@@ -1,8 +1,5 @@
-module github.com/tenntenn/isucontools/sqlstr
+module github.com/kotaroooo0/isucontools/sqlstr
 
 go 1.13
 
-require (
-	github.com/aws/aws-sdk-go v1.24.2
-	golang.org/x/tools v0.0.0-20190920023704-c426260dee6e
-)
+require golang.org/x/tools v0.0.0-20200819140908-cf83efe03cf8
