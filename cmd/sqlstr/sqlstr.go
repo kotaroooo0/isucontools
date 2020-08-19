@@ -60,8 +60,7 @@ func run(fset *token.FileSet, f *ast.File) (rerr error) {
 
 		// SQL文っぽい
 		us := strings.ToUpper(strings.TrimSpace(s))
-		if strings.HasPrefix(us, "SELECT") ||
-			strings.HasPrefix(us, "INSERT") ||
+		if strings.HasPrefix(us, "INSERT") ||
 			strings.HasPrefix(us, "UPDATE") ||
 			strings.HasPrefix(us, "DELETE") {
 
